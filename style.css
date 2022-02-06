@@ -1,0 +1,32 @@
+/* Universal css selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS for div with class name mouse-highlighter */
+.mouse-highlighter {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: block;
+    background: #000;
+    opacity: 0.5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* Blends the background with mouse-highlighter__mouse-pointer div*/
+    mix-blend-mode: darken;
+    z-index: 99999;
+}
+
+/* CSS for div with class name mouse-highlighter__mouse-pointer with parent div class name*/
+.mouse-highlighter .mouse-highlighter__mouse-pointer {
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
