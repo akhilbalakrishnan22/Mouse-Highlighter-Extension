@@ -1,0 +1,19 @@
+{
+    "name": "Mouse-Highlighter",
+    "version": "1.0.0",
+    "description": "Extension hightlights the location where mouse is located.",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "extension.js"
+            ]
+        }
+    ]
+}
