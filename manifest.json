@@ -2,7 +2,8 @@
     "name": "Mouse-Highlighter",
     "version": "1.0.0",
     "description": "Extension hightlights the location where mouse is located.",
-    "manifest_version": 2,
+    "homepage_url": "https://github.com/akhilbalakrishnan22/Mouse-Highlighter-Extension",
+    "manifest_version": 3,
     "content_scripts": [
         {
             "matches": [
